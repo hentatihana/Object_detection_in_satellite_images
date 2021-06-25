@@ -54,7 +54,7 @@ The pipline config file for DOTA data set can be found in the Google drive.
 
 Here we train FASTER-RCNN with image size of 1024×1024, YOLOv5 with image size of 608×608. Please refer to DOTA_devkit/ImgSplit.py to split the picture and label. The trained models can be downloaded here:
 
-Google Drive: FASTER-RCNN (https://drive.google.com/drive/u/1/folders/0AKXPJlD12Pn_Uk9PVA), YOLOv5 (https://drive.google.com/drive/u/1/folders/0ACEYqbc5R1cSUk9PVA)
+Google Drive: [FASTER-RCNN](https://drive.google.com/drive/u/1/folders/0AKXPJlD12Pn_Uk9PVA), [YOLOv5](https://drive.google.com/drive/u/1/folders/0ACEYqbc5R1cSUk9PVA)
 Evaluation
 You can use the pre-trained models to test images. 
 
