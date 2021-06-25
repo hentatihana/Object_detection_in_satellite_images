@@ -1,5 +1,5 @@
 # Object_detection_in_satellite_images
-# H1 FASTER-RCNN with DOTA
+# FASTER-RCNN with DOTA
 We provide the config files, TFRecord files and label_map file used in training DOTA with FASTER-RCNN, and the trained models have been uploaded to google Drive.
 Notice that there are in google colab step by step process from mounting the drive until evaluation of the result.
 
@@ -59,7 +59,7 @@ Evaluation
 You can use the pre-trained models to test images. 
 
 
-# H1 YOLOv5
+#  YOLOv5
 For this one we followed the set from the Ultralytics YOLOv5 Repo.
 and in the google colab you will find step by step process from mounting the drive until evaluation of the result.
 you can find all the scripts in the script folder
@@ -84,8 +84,8 @@ Download the weight for YOLOv5
 !sh -x weights/download_weights.sh
 For training and detection the are described in the Google colab
 
-# H1 Flask
-## H2 Flask with Faster RCNN
+#  Flask
+## Flask with Faster RCNN
 
 Download Tensorflow API from Github Repository
 Setting up a virtual environment
@@ -124,7 +124,7 @@ add the following folders:
 
 to run the app : python detction.py
 
-## H2 Flask with YOLOv5
+## Flask with YOLOv5
 
 Download Ultralytics YOLOv5 from Github Repository
 Setting up a virtual environment
